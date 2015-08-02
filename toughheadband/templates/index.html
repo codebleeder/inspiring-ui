@@ -1,0 +1,17 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %} Tough {% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
+    {{ super() }}
+{% endblock head %}
+{% block body %}
+<div class="jumbotron">
+        <div class="glyphicon glyphicon-menu-hamburger"></div>
+        <img src="../static/giraffe.jpg" class="img-responsive center-block" alt="" align="center">
+        <h1 align="center" id="heading"> A nice giraffe for everyone! </h1>
+</div>
+<div class="row">
+    <img src="../static/giraffe.jpg" class="img-responsive" alt="" align="center">
+</div>
+{% endblock body %}

@@ -1,0 +1,13 @@
+.glyphicon.glyphicon-menu-hamburger {
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background: #000 url("../static/forest.jpg") center center;
+
+}
+
+#heading {
+    color: #ffffff;
+}
